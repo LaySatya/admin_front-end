@@ -5,7 +5,7 @@ const Sidebar = ({ onSelect }) => {
     const [active, setActive] = useState("overview");
 
     return (
-        <div className="w-64 h-screen bg-white">
+        <div className="w-64 h-screen bg-white md:block hidden">
             <h2 className="text-xl font-bold mb-5 p-5">LOGO</h2>
             <ul className="space-y-1">
                 {menuItems.map((item) => (
